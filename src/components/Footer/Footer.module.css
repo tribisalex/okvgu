@@ -1,0 +1,5 @@
+.footer {
+  border: 2px solid red;
+  background: url(../assets/backFoot.jpg) center center no-repeat;
+  grid-area: f;
+}

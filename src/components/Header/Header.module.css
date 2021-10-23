@@ -1,0 +1,214 @@
+.header {
+  background: url(../assets/backHeader.jpg) center center no-repeat;
+  border: 2px solid blue;
+  grid-area: h;
+  display: grid;
+  grid-template-areas: 'kol shap rb';
+  grid-template-rows: 120px;
+  grid-template-columns: 1fr 10fr 1fr;
+  text-align: center;
+}
+
+.gerb_rb {
+  grid-area: rb;
+  padding: 1%;
+  height: 90px;
+  right: 5px;
+  top: 5px;
+}
+
+.gerb_kol {
+  grid-area: kol;
+  padding: 1%;
+  height: 95px;
+  left: 5px;
+  top: 5px;
+}
+
+.shapka {
+  grid-area: shap;
+  vertical-align: middle;
+}
+
+.shapka1 {
+  text-align: center;
+  color: darkgray;
+  margin-top: 10px;
+  font-family: verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+
+}
+
+.shapka2 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 10px;
+  font-family: verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+
+.headerDiv {
+  background: url(../assets/backHeader.jpg) center center no-repeat;
+}
+
+.emblema {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.headText {
+  text-align: center;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+/*#minObr {*/
+/*  font-size: 10pt;*/
+/*  color: #DDDDDD;*/
+/*}*/
+
+/*.gerb {*/
+/*  position: absolute;*/
+/*  right: 5px;*/
+/*  top: 5px;*/
+/*}*/
+
+/*.rowMenu {*/
+/*  padding-right: 0px;*/
+/*  padding-left: 0px;*/
+/*}*/
+
+/*.searchE {*/
+/*  position: absolute;*/
+/*  right: 40px;*/
+/*  border: 15px;*/
+/*  border-color: black;*/
+/*  color: cornflowerblue;*/
+/*}*/
+
+/*.submitSearch {*/
+/*  position: absolute;*/
+/*  right: 40px;*/
+/*  width: 30px;*/
+/*  height: 23px;*/
+/*  cursor: pointer;*/
+/*  background: url(../img/detectedIMG.png) center center no-repeat;*/
+/*}*/
+
+/*.submitEYE {*/
+/*  position: absolute;*/
+/*  right: 5px;*/
+/*  width: 30px;*/
+/*  height: 23px;*/
+/*  cursor: pointer;*/
+/*  background: url(../img/eyeIMG.png) center center no-repeat;*/
+/*}*/
+
+/*.backlight {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  max-width: 300px;*/
+/*  box-sizing: border-box;*/
+/*  margin: 0 auto 10px;*/
+/*  padding: 10px;*/
+/*  border: 1px solid #000;*/
+/*  border-radius: 4px;*/
+/*  box-shadow: inset 0 2px 10px 1px rgba(0, 0, 0, .3), inset 0 0 0 60px rgba(0, 0, 0, .3), 0 1px rgba(255, 255, 255, .08);*/
+/*  background: linear-gradient(rgb(70, 70, 70), rgb(120, 120, 120));*/
+/*  color: #ccc;*/
+/*  transition: .5s linear;*/
+/*}*/
+
+/*.backlight:focus {*/
+/*  outline: none;*/
+/*  box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, .5), inset 0 0 0 60px rgba(0, 0, 0, 0), 0 1px rgba(255, 255, 255, .08);*/
+/*}*/
+
+/*.footerDiv {*/
+/*  text-align: center;*/
+/*  height: 110px;*/
+/*  background: url(../img/footer/backFoot.jpg) center center no-repeat;*/
+/*  color: #000000;*/
+/*  font-family: verdana, arial, sans-serif;*/
+/*  font-size: 8pt;*/
+/*}*/
+
+/*.scroll-img {*/
+/*  margin: auto;*/
+/*  width: 700px;*/
+/*  height: 80px;*/
+/*  overflow: hidden;*/
+/*  font-size: 0;*/
+/*}*/
+
+/*.scroll-img ul {*/
+/*  width: 1120px;*/
+/*  height: 100px;*/
+/*  margin: 0;*/
+/*}*/
+
+/*.scroll-img ul li {*/
+/*  display: inline-block;*/
+/*  margin: 10px 0 10px 10px;*/
+/*}*/
+
+/*.NewsPreViewText {*/
+/*  float: left;*/
+/*  margin-left: 350px;*/
+/*  margin-right: 0;*/
+/*  margin-Top: -170px;*/
+/*}*/
+
+/*.numCurPage {*/
+/*  background: #DDDDDD;*/
+/*  border: 1px solid #555555;*/
+/*  padding: 3px;*/
+/*}*/
+
+/*.numPage {*/
+/*}*/
+
+/*#galleriaContent {*/
+/*  width: 1050px;*/
+/*  height: 600px;*/
+/*}*/
+
+/*.galelleriaPrev {*/
+/*  background-color: rgba(0, 0, 0, 0.65);*/
+/*  color: #FFFFFF;*/
+/*  display: block;*/
+/*  width: 268px;*/
+/*  height: 45px;*/
+/*  position: relative;*/
+/*  top: -198px;*/
+/*  font-weight: bold;*/
+/*  font-size: 2em;*/
+/*}*/
+
+/*.GrayImg {*/
+/*  filter: grayscale(100%);*/
+/*  -webkit-filter: grayscale(100%);*/
+/*  transition: 1s;*/
+/*}*/
+
+/*.BigFont {*/
+/*  font-size: 300%;*/
+/*}*/
+
+/*.CarouselEnviz {*/
+/*  display: none;*/
+/*}*/
+
+/*.content {*/
+/*  margin: 0 auto;*/
+/*  max-width: 1136px;*/
+/*}*/

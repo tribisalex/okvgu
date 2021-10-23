@@ -1,0 +1,5 @@
+.navbl {
+  border: 2px solid red;
+  background-color: #61dafb;
+  grid-area: nl;
+}

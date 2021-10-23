@@ -1,0 +1,24 @@
+.App-link {
+  color: #61dafb;
+}
+
+.app-wrapper {
+  display: grid;
+  width: 75%;
+  margin: 0 auto;
+  grid-template-rows: 100px 1fr 10fr 50px;
+  grid-template-columns: 12fr;
+  grid-template-areas: 'h' 'n' 'c' 'f';
+}
+
+.app-wrapper-navbar-menu {
+  grid-area: nbm;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+}
+
+
+
+

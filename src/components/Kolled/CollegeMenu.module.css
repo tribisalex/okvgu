@@ -1,0 +1,24 @@
+.collegeMenu {
+  border: 2px solid pink;
+  background-color: darkgray;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: yellow;
+  text-decoration: none;
+}
+
+.collegeMenu ul {
+  margin: 0;
+  padding: 4px;
+}
+
+.collegeMenu ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #000;
+}
